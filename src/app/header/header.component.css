@@ -1,0 +1,22 @@
+.header-container{
+    width: 100%;
+    height: 80px;
+    background-color: #707b8e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-container .logo{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.header-container .logout{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 40px;
+    cursor: pointer;
+}

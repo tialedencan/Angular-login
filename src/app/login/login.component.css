@@ -1,0 +1,32 @@
+.login-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #8d99ae;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.login-container .logo{
+    font-size: 70px;
+    font-weight: bold;
+    
+}
+
+.login-container .login-form{
+    background-color: aliceblue;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #383838;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-container .form-group{
+    margin-bottom: 20px;
+}
